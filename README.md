@@ -1,49 +1,49 @@
 # area_calculator
 
-## 📌 Description du projet : Calculateur d’Aires Géométriques
+## 📌 Project description: Geometric Area Calculator
 
-### 📝 Résumé
-Ce projet est une application console interactive en Python permettant de calculer l’aire de différentes formes géométriques. L'utilisateur choisit une figure parmi le triangle, le rectangle, le carré et le cercle, saisit les dimensions requises et obtient l’aire correspondante.
+### 📝 Summary
+This project is an interactive console application in Python for calculating the area of various geometric shapes. The user chooses a figure from among triangles, rectangles, squares and circles, enters the required dimensions and obtains the corresponding area.
 
 ### 🎯 Objectifs
-  - Offrir un outil simple et intuitif pour calculer des aires.
+  - Offer a simple, intuitive tool for calculating areas.
 
-  - Garantir une expérience utilisateur fluide en gérant les erreurs d’entrée.
+  - Guarantee a smooth user experience by managing input errors.
 
-  - Assurer la robustesse du programme en empêchant les valeurs invalides (ex: nombres négatifs, texte au lieu de chiffres).
+  - Ensure program robustness by preventing invalid values (e.g. negative numbers, text instead of digits).
+   
+### 🔹 Features
 
-### 🔹 Fonctionnalités
+  ✅ Interactive menu with available shapes.
+  
+  ✅ Support for user input with error validation.
 
-  ✅ Affichage d'un menu interactif avec les formes disponibles.
+  ✅ Calculating areas using mathematical formulas :
 
-  ✅ Prise en charge des entrées utilisateur avec validation des erreurs.
+  - Triangle: $(base × height) / $2
 
-  ✅ Calcul des aires selon les formules mathématiques :
+  - Rectangle: $length × width$.
 
-  - Triangle : $(base × hauteur) / 2$
+  - Square: $side²$
 
-  - Rectangle : $longueur × largeur$
+  - Circle: $π × radius²$
+    
+✅ Display results with 2-decimal formatting.
 
-  - Carré : $côté²$
+✅ Option to exit the application cleanly by selecting the dedicated option.
 
-  - Cercle : $π × rayon²$
-
-✅ Affichage des résultats avec formatage à 2 décimales.
-
-✅ Possibilité de quitter l’application proprement en sélectionnant l’option dédiée.
-
-### ⚙️ Technologies utilisées
+### ⚙️ Technologies used
 - Python 3
 
-- Bibliothèque math (pour π dans le calcul de l’aire du cercle)
+- Math library (for π in calculating circle area)
 
-### 🚀 Améliorations possibles
-🔹 Ajouter d'autres formes géométriques (trapèze, losange, etc.).
+### 🚀 Possible improvements
+🔹 Add other geometric shapes (trapezoid, rhombus, etc.).
 
-🔹 Permettre à l’utilisateur de choisir l’unité de mesure (cm², m², etc.).
+🔹 Allow the user to choose the unit of measurement (cm², m², etc.).
 
-🔹 Créer une interface graphique (GUI) avec Tkinter ou PyQt.
+🔹 Create a graphical user interface (GUI) with Tkinter or PyQt.
 
-🔹 Générer un rapport des calculs en fichier texte.
+🔹 Generate a calculation report as a text file.
 
-💡 Un projet idéal pour apprendre la gestion des entrées utilisateur et les structures de contrôle en Python ! 🐍🚀
+💡 An ideal project for learning user input management and control structures in Python! 🐍🚀
